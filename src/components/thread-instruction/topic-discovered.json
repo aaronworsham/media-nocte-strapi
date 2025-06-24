@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_thread_instruction_topic_discovereds",
+  "info": {
+    "displayName": "Topic Discovered"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

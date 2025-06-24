@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "threads",
+  "info": {
+    "singularName": "thread",
+    "pluralName": "threads",
+    "displayName": "Thread"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "guid": {
+      "type": "uid"
+    },
+    "starts_discovery": {
+      "type": "boolean"
+    },
+    "label": {
+      "type": "text"
+    }
+  }
+}

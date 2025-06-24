@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_thread_instruction_mystery_discovereds",
+  "info": {
+    "displayName": "Mystery Discovered"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_thread_instruction_thread_discovereds",
+  "info": {
+    "displayName": "Thread Discovered"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "copy": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
