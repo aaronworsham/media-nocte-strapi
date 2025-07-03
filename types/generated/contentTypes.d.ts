@@ -387,7 +387,7 @@ export interface ApiActorActor extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    dialogs: Schema.Attribute.Relation<'oneToMany', 'api::dialog.dialog'>;
+    dialog: Schema.Attribute.Relation<'oneToOne', 'api::dialog.dialog'>;
     guid: Schema.Attribute.UID;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::actor.actor'> &

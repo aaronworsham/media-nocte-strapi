@@ -33,9 +33,9 @@
         "audios"
       ]
     },
-    "dialogs": {
+    "dialog": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::dialog.dialog"
     }
   }
