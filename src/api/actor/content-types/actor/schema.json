@@ -23,7 +23,7 @@
     "ycord": {
       "type": "decimal"
     },
-    "portrait": {
+    "portrait_64_x_64": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -37,6 +37,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::dialog.dialog"
+    },
+    "portrait_300_x_300": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
