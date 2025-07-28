@@ -21,6 +21,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::actor.actor"
+    },
+    "threads": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::thread.thread",
+      "mappedBy": "dialog"
     }
   }
 }

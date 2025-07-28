@@ -22,6 +22,12 @@
     },
     "label": {
       "type": "text"
+    },
+    "dialog": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::dialog.dialog",
+      "inversedBy": "threads"
     }
   }
 }

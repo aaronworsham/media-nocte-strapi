@@ -459,6 +459,7 @@ export interface ApiDialogDialog extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    threads: Schema.Attribute.Relation<'oneToMany', 'api::thread.thread'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -623,6 +624,7 @@ export interface ApiThreadThread extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    dialog: Schema.Attribute.Relation<'manyToOne', 'api::dialog.dialog'>;
     guid: Schema.Attribute.UID;
     label: Schema.Attribute.Text;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
