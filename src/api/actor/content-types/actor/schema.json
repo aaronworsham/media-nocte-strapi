@@ -38,7 +38,7 @@
       "relation": "oneToOne",
       "target": "api::dialog.dialog"
     },
-    "portrait_300_x_300": {
+    "portrait_256_x_256": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

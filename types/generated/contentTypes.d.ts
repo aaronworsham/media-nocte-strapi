@@ -393,7 +393,7 @@ export interface ApiActorActor extends Struct.CollectionTypeSchema {
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::actor.actor'> &
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
-    portrait_300_x_300: Schema.Attribute.Media<
+    portrait_256_x_256: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
     portrait_64_x_64: Schema.Attribute.Media<
