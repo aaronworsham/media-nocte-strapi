@@ -17,7 +17,7 @@
     "guid": {
       "type": "uid"
     },
-    "starts_discovery": {
+    "starts_discovered": {
       "type": "boolean"
     },
     "label": {
