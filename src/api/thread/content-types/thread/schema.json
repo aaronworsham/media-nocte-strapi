@@ -28,6 +28,16 @@
       "relation": "manyToOne",
       "target": "api::dialog.dialog",
       "inversedBy": "threads"
+    },
+    "instructions": {
+      "type": "dynamiczone",
+      "components": [
+        "thread-instruction.topic-discovered",
+        "thread-instruction.thread-statement",
+        "thread-instruction.thread-discovered",
+        "thread-instruction.mystery-discovered",
+        "thread-instruction.clue-discovered"
+      ]
     }
   }
 }
