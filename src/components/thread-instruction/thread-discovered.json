@@ -10,6 +10,11 @@
     },
     "copy": {
       "type": "richtext"
+    },
+    "thread": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::thread.thread"
     }
   },
   "config": {}

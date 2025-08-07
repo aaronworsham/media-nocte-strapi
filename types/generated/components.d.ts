@@ -31,6 +31,7 @@ export interface ThreadInstructionThreadDiscovered
   attributes: {
     copy: Schema.Attribute.RichText;
     name: Schema.Attribute.String;
+    thread: Schema.Attribute.Relation<'oneToOne', 'api::thread.thread'>;
   };
 }
 
