@@ -19,9 +19,9 @@
     },
     "research_categories": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::research-category.research-category",
-      "mappedBy": "research_topic"
+      "mappedBy": "research_topics"
     }
   }
 }

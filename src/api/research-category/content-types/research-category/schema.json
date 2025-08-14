@@ -17,9 +17,9 @@
     "guid": {
       "type": "uid"
     },
-    "research_topic": {
+    "research_topics": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::research-topic.research-topic",
       "inversedBy": "research_categories"
     }
