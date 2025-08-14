@@ -550,7 +550,7 @@ export interface ApiResearchCategoryResearchCategory
     name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     research_topics: Schema.Attribute.Relation<
-      'manyToMany',
+      'oneToMany',
       'api::research-topic.research-topic'
     >;
     updatedAt: Schema.Attribute.DateTime;
@@ -583,8 +583,8 @@ export interface ApiResearchTopicResearchTopic
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    research_categories: Schema.Attribute.Relation<
-      'manyToMany',
+    research_category: Schema.Attribute.Relation<
+      'manyToOne',
       'api::research-category.research-category'
     >;
     updatedAt: Schema.Attribute.DateTime;

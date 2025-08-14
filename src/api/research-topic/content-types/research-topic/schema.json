@@ -17,11 +17,11 @@
     "guid": {
       "type": "uid"
     },
-    "research_categories": {
+    "research_category": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::research-category.research-category",
-      "mappedBy": "research_topics"
+      "inversedBy": "research_topics"
     }
   }
 }
