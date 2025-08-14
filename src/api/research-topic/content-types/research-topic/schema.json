@@ -16,6 +16,12 @@
     },
     "guid": {
       "type": "uid"
+    },
+    "research_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::research-category.research-category",
+      "mappedBy": "research_topic"
     }
   }
 }
