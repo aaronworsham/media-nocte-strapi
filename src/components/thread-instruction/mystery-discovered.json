@@ -7,6 +7,11 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "mystery": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mystery.mystery"
     }
   },
   "config": {}

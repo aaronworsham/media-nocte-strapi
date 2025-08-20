@@ -7,6 +7,11 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "clue": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::clue.clue"
     }
   },
   "config": {}

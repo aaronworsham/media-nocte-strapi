@@ -7,6 +7,7 @@ export interface ThreadInstructionClueDiscovered
     displayName: 'Clue Discovered';
   };
   attributes: {
+    clue: Schema.Attribute.Relation<'oneToOne', 'api::clue.clue'>;
     name: Schema.Attribute.String;
   };
 }
@@ -18,6 +19,7 @@ export interface ThreadInstructionMysteryDiscovered
     displayName: 'Mystery Discovered';
   };
   attributes: {
+    mystery: Schema.Attribute.Relation<'oneToOne', 'api::mystery.mystery'>;
     name: Schema.Attribute.String;
   };
 }
