@@ -27,6 +27,12 @@
       "relation": "oneToMany",
       "target": "api::thread.thread",
       "mappedBy": "dialog"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

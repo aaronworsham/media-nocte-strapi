@@ -21,6 +21,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::mystery.mystery"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

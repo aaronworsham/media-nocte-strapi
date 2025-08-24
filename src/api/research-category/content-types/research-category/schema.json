@@ -22,6 +22,12 @@
       "relation": "oneToMany",
       "target": "api::research-topic.research-topic",
       "mappedBy": "research_category"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

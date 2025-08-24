@@ -26,6 +26,12 @@
         "videos",
         "audios"
       ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

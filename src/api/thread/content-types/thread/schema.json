@@ -38,6 +38,9 @@
         "thread-instruction.mystery-discovered",
         "thread-instruction.clue-discovered"
       ]
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

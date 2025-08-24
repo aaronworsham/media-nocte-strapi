@@ -22,6 +22,12 @@
       "relation": "manyToOne",
       "target": "api::research-category.research-category",
       "inversedBy": "research_topics"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
