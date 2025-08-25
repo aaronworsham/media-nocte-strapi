@@ -36,7 +36,8 @@
         "thread-instruction.thread-statement",
         "thread-instruction.thread-discovered",
         "thread-instruction.mystery-discovered",
-        "thread-instruction.clue-discovered"
+        "thread-instruction.clue-discovered",
+        "thread-instruction.thread-challenged"
       ]
     },
     "description": {

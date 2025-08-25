@@ -657,6 +657,7 @@ export interface ApiThreadThread extends Struct.CollectionTypeSchema {
         'thread-instruction.thread-discovered',
         'thread-instruction.mystery-discovered',
         'thread-instruction.clue-discovered',
+        'thread-instruction.thread-challenged',
       ]
     >;
     label: Schema.Attribute.Text;
