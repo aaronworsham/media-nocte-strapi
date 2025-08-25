@@ -643,6 +643,7 @@ export interface ApiThreadThread extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    actor: Schema.Attribute.Relation<'oneToOne', 'api::actor.actor'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

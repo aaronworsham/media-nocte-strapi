@@ -41,6 +41,11 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "actor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::actor.actor"
     }
   }
 }
