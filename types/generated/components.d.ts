@@ -24,6 +24,19 @@ export interface ThreadInstructionMysteryDiscovered
   };
 }
 
+export interface ThreadInstructionThreadChallenged
+  extends Struct.ComponentSchema {
+  collectionName: 'components_thread_instruction_thread_challengeds';
+  info: {
+    displayName: 'Thread Challenged';
+  };
+  attributes: {
+    description: Schema.Attribute.Blocks;
+    name: Schema.Attribute.String;
+    skill: Schema.Attribute.String;
+  };
+}
+
 export interface ThreadInstructionThreadDiscovered
   extends Struct.ComponentSchema {
   collectionName: 'components_thread_instruction_thread_discovereds';
@@ -65,6 +78,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'thread-instruction.clue-discovered': ThreadInstructionClueDiscovered;
       'thread-instruction.mystery-discovered': ThreadInstructionMysteryDiscovered;
+      'thread-instruction.thread-challenged': ThreadInstructionThreadChallenged;
       'thread-instruction.thread-discovered': ThreadInstructionThreadDiscovered;
       'thread-instruction.thread-statement': ThreadInstructionThreadStatement;
       'thread-instruction.topic-discovered': ThreadInstructionTopicDiscovered;
